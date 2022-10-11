@@ -1,0 +1,191 @@
+body
+{
+    font-family: 'Roboto', 'Raleway', sans-serif ;
+    background: #E5E5E5;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main1 {
+    background-color: #FFFFFF;
+}
+section.hero button {
+cursor: pointer;
+width: 103px;
+height: 38px;
+background: #F5F4FA;
+border-radius: 4px;
+border-color: #F5F4FA;
+}
+
+section.hero button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+
+ul h3 {
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+ul p {
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+ul.menu-black a {
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+ul.menu-black a:hover {
+    color: #2196F3;
+
+}
+ul.menu2 a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    }
+    
+ul.menu2 a:hover {
+    color: #2196F3;
+    }
+
+.top-menu {
+background: #FFFFFF;
+}
+
+header a {
+text-decoration: none;
+}
+
+section.foto img {
+width: 370px;
+height: 294px;
+}
+footer a {
+text-decoration: none;    
+}
+
+.foot-all {
+background: #2F303A;
+}
+
+.foot1 {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.foot2 {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px; 
+letter-spacing: 0.03em; 
+color: rgba(255, 255, 255, 0.6);
+}
+
+.hero1 {
+background-color: #2F303A;
+}
+
+section.hero1 button {
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+section.hero1 h1 {
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+section.work h3 {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+section.work p {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+section.we-do-it h2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+section.our-team h2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+ }
+
+section.our-team h3 {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+ }
+
+ section.our-team p {
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+ }
