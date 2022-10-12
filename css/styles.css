@@ -1,7 +1,16 @@
+:root {
+--bgcolor: #FFFFFF;  
+--blueskin: #2196F3; 
+--vtcolor: #F5F4FA; 
+--blcolor: #188CE8;
+--blkcolor: #212121;
+--bkcolor: #757575;
+--blek: #2F303A;
+}
 body
 {
 font-family: 'Roboto', sans-serif ;
-background-color: #FFFFFF;
+background-color: var(--bgcolor);
 }
 
 li {
@@ -9,11 +18,11 @@ list-style-type: none;
 }
 
 a:focus {
-box-shadow: 0 0 0 3px #2196F3;
+box-shadow: 0 0 0 3px var(--blueskin);
 }
 
 button:focus {
-    box-shadow: 0 0 0 3px #2196F3;
+    box-shadow: 0 0 0 3px var(--blueskin);
 }
 
 button {
@@ -23,20 +32,20 @@ font-size: 16px;
 }
 
 .main1 {
-background-color: #FFFFFF;
+background-color: var(--bgcolor);
 }
 
 .hero button {
 width: 103px;
 height: 38px;
-background: #F5F4FA;
+background:  var(--vtcolor);
 border-radius: 4px;
-border-color: #F5F4FA;
+border-color: var(--vtcolor);
 }
 
 .hero button:hover {
-    background-color: #188CE8;
-    color: #FFFFFF;
+background-color: var(--blcolor);
+color: var(--bgcolor);
 }
 
 ul h3 {
@@ -44,7 +53,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--blkcolor);
 }
 
 ul p {
@@ -52,7 +61,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--bkcolor);
 }
 
 .logo {
@@ -62,34 +71,34 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--blueskin);
 }
 ul.menu-black a {
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--blkcolor);
 }
 
 ul.menu-black a:hover {
-    color: #2196F3;
+    color: var(--blueskin);
 
 }
 ul.menu2 a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
-    }
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--bkcolor);
+}
     
 ul.menu2 a:hover {
-    color: #2196F3;
-    }
+color: var(--blueskin);
+}
 
 .top-menu {
-background: #FFFFFF;
+background: var(--bgcolor);
 }
 
 header a {
@@ -105,7 +114,7 @@ text-decoration: none;
 }
 
 .foot-all {
-background: #2F303A;
+background: var(--blek);
 }
 
 .foot-text {
@@ -117,7 +126,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--bgcolor);
 }
 
 .foot2 {
@@ -129,7 +138,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .hero1 {
-background-color: #2F303A;
+background-color: var(--blek);
 }
 
 section.hero1 button {
@@ -140,12 +149,12 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;
-background-color: #2196F3;
+color: var(--bgcolor);
+background-color: var(--blueskin);
 }
 
 section.hero1 button:hover {
-background-color: #188CE8;
+background-color: var(--blcolor);
 }
 
 section.hero1 h1 {
@@ -155,7 +164,7 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--bgcolor);
 }
 
 section.work h3 {
@@ -164,7 +173,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--blkcolor);
 }
 
 section.work p {
@@ -172,7 +181,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--bkcolor);
 }
 
 section.we-do-it h2 {
@@ -181,40 +190,37 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--blkcolor);
 }
 
 section.our-team {
-background-color: #F5F4FA;
+background-color: var(--vtcolor);
 }
 
 section.our-team li {
-background-color: #FFFFFF;
+background-color: var(--bgcolor);
 }
 
 section.our-team h2 {
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
-text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--blkcolor);
  }
 
 section.our-team h3 {
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--blkcolor);
  }
 
  section.our-team p {
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--bkcolor);
  }
