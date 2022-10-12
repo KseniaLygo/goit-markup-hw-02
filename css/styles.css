@@ -21,18 +21,9 @@ a:focus {
 box-shadow: 0 0 0 3px var(--blueskin);
 }
 
-a:hover {
-box-shadow: 0 0 0 3px var(--blueskin);
-}
-
 button:focus {
 box-shadow: 0 0 0 3px var(--blueskin);
 }
-
-button:hover {
-box-shadow: 0 0 0 3px var(--blueskin);
-}
-
 
 button {
 font-family: 'Roboto', sans-serif ;
@@ -56,6 +47,11 @@ border-color: var(--vtcolor);
 background-color: var(--blcolor);
 color: var(--bgcolor);
 }
+.hero button:focus {
+background-color: var(--blcolor);
+color: var(--bgcolor);
+ }
+
 
 ul h3 {
 font-weight: 700;
@@ -92,8 +88,12 @@ color: var(--blkcolor);
 
 ul.menu-black a:hover {
     color: var(--blueskin);
-
 }
+
+ul.menu-black a:focus {
+color: var(--blueskin);
+}
+
 ul.menu2 a {
 font-weight: 500;
 font-size: 14px;
@@ -103,6 +103,9 @@ color: var(--bkcolor);
 }
     
 ul.menu2 a:hover {
+color: var(--blueskin);
+}
+ul.menu2 a:focus {
 color: var(--blueskin);
 }
 
@@ -163,6 +166,9 @@ background-color: var(--blueskin);
 }
 
 section.hero1 button:hover {
+background-color: var(--blcolor);
+}
+section.hero1 button:focus {
 background-color: var(--blcolor);
 }
 
